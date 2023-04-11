@@ -1,0 +1,1 @@
+premier scripte python sur github.
