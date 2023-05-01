@@ -3,7 +3,7 @@ import mysql.connector # Pour travailler sur une BD MySQL
 connection_params = {
     "host" : "localhost",
     "user" : "root",
-    "password" : " ",
+    "password" : "",
     "database" : "gesetudiant"
     }
 

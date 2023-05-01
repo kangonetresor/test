@@ -1,16 +1,16 @@
 import datetime
-import mysql.connector # Pour travailler sur une BD MySQL
+import mysql.connector
 
 connection_params = {
-    "host" : "localhost",
+    "host": "localhost",
     "user" : "root",
-    "password" : " ",
+    "password" : "",
     "database" : "gesetudiant"
-    }
+}
 
-request = """insert into etudiant
-            (id_etud, matricule, NomPrenoms, classe, dateinscription)
-            values (%s, %s, %s, %s)"""
+request = """insert into etudiant 
+            (Matricule, NomPrenoms, Classe, DateInscription) 
+            values(%s, %s, %s, %s)""" 
 params = [("CI0119376468","Adama Landry", "Licence 3", datetime.date.today()),
           ("CI0118330826", "Kouamé Yves", "Licence 1", datetime.date.today()),
           ("CI0117324072", "Maro Elavi", "Licence 1", datetime.date.today()),

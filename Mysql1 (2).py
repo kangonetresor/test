@@ -1,4 +1,4 @@
-import mysql.connector # Pour travailler sur une BD MySQL
+import mysql.connector 
 
 db = mysql.connector.connect(
     host = "localhost",
@@ -6,7 +6,5 @@ db = mysql.connector.connect(
     password = "",
     database = "gesetudiant"
 )
-
-# faire quelque chose d'utile avec la connexion
 
 db.close()
