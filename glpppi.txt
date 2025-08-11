@@ -1,0 +1,34 @@
+
+
+GITHUB , GITHUB ACTIONS, CodeQL, SYNK, OWASP ZAP, TRIVY, WAZUH
+
+	
+	CODE ---> SAST ---> BUILD ---> 'SCA' ---> RUN & TEST ---> ScC ---> DAST ---> PUSH ---> PREPROD ---> PROD ---> MONITORING
+
+
+* Utilisateurs de GLPI : 
+	- Post-Only
+	- tech 
+	- glpi
+	- glpi-system
+	- normal
+
+
+Powerpoint : 
+	Titre et contexte : Présentation de GLPI, les fonctionnalités, fixé l'objectif de notre presentation
+	Architecture proposée : Digramme, 
+	Processus d'installation
+	Presentation des fenetres : axplication des 3 principales config a faire (utilisateurs, install.php, php.ini), puis presentation de l'interface
+	Gestion des utilisateurs: Dfférents typologies * Utilisateurs de GLPI : 
+	- Post-Only
+	- tech 
+	- glpi
+	- glpi-system
+	- normal
+	Démo d'acces 
+	Check-list de vérification des objetifs
+	Conclusion et prochaines étapes
+
+
+
+
